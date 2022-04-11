@@ -5,3 +5,5 @@ The last digit -  A C program will assign a random number to the variable n each
 I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game - A C program that prints the alphabet in lowercase, followed by a new line
 
 alphABET - A C program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+When I was having that alphabet soup, I never thought that it would pay off - A C program that prints the alphabet in lowercase, followed by a new line.
