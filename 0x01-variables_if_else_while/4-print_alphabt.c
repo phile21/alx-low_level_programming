@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char alphs = 97;
+	int alphs = 97;
 
 	while (alphs <= 122)
 	{
