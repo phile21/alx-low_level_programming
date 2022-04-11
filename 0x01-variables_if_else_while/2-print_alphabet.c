@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	char alphs = "a";
+	int alphs = 97;
 
-	while (alphs <= "z")
+	while (alphs <= 122)
 	{
 		putchar(alphs);
 		alphs++;
