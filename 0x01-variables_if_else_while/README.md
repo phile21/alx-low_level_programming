@@ -9,3 +9,5 @@ alphABET - A C program that prints the alphabet in lowercase, and then in upperc
 When I was having that alphabet soup, I never thought that it would pay off - A C program that prints the alphabet in lowercase, followed by a new line.
 
 Numbers - A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+Numberz - A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line
