@@ -12,7 +12,7 @@ int main(void)
 
 	while (alphs <= "z")
 	{
-		putchar("%c ", alphs);
+		putchar(alphs);
 		alphs++;
 	}
 	putchar("\n");
