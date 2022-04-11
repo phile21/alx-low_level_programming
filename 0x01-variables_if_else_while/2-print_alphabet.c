@@ -15,6 +15,5 @@ int main(void)
 		putchar(alphs);
 		alphs++;
 	}
-	putchar("\n");
 	return (0);
 }
