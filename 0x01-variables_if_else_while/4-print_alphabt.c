@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	char alphs = 'a';
+	char alphs = 97;
 
-	while (alphs <= 'z')
+	while (alphs <= 122)
 	{
-		if (alphs != 'e' && alphs != 'q')
+		if (alphs != 101 && alphs != 113)
 		{
 			putchar(alphs);
 			alphs++;
