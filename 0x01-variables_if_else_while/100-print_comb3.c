@@ -10,16 +10,17 @@ int main(void)
 {
 	int num1 = 0;
 
-	while(num1 < 9)
+	while (num1 < 9)
 	{
 		int num2 = num1 + 1;
-		while(num2 < 9)
+
+		while (num2 < 10)
 		{
 			putchar((num1 % 10) + '0');
 			putchar((num2 % 10) + '0');
 			if (num1 == 8 && num2 == 9)
 			{
-				continue;
+				break;
 			}
 			putchar(',');
 			putchar(' ');
