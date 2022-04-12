@@ -17,3 +17,5 @@ Smile in the mirror - A C program that prints the lowercase alphabet in reverse,
 Hexadecimal - A C program that prints all the numbers of base 16 in lowercase, followed by a new line
 
 Patience, persistence and perspiration make an unbeatable combination for success  - A C program that prints all possible combinations of single-digit numbers
+
+Inventing is a combination of brains and materials. The more brains you use, the less material you need - A C program that prints all possible different combinations of two digits
