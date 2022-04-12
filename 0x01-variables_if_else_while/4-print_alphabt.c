@@ -15,8 +15,8 @@ int main(void)
 		if (alphs != 101 && alphs != 113)
 		{
 			putchar(alphs);
-			alphs++;
 		}
+		alphs++;
 	}
 	putchar('\n');
 	return (0);
