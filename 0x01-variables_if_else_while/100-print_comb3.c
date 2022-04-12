@@ -10,10 +10,10 @@ int main(void)
 {
 	int num_1 = 0;
 
-	int num_2 = num_1 + 1;
-
 	while (num_1 < 9)
 	{
+		int num_2 = num_1 + 1;
+
 		while (num_2 < 10)
 		{
 			putchar((num_1 % 10) + '0');
@@ -26,7 +26,7 @@ int main(void)
 			putchar(' ');
 			num_2++;
 		}
-		num_2++;
+		num_1++;
 	}
 	putchar('\n');
 	return (0);
