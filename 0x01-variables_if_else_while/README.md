@@ -15,3 +15,5 @@ Numberz - A C program that prints all single digit numbers of base 10 starting f
 Smile in the mirror - A C program that prints the lowercase alphabet in reverse, followed by a new line
 
 Hexadecimal - A C program that prints all the numbers of base 16 in lowercase, followed by a new line
+
+Patience, persistence and perspiration make an unbeatable combination for success  - A C program that prints all possible combinations of single-digit numbers
