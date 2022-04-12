@@ -20,4 +20,6 @@ Patience, persistence and perspiration make an unbeatable combination for succes
 
 Inventing is a combination of brains and materials. The more brains you use, the less material you need - A C program that prints all possible different combinations of two digits
 
-The success combination in business is: Do what you do better... and: do more of what you do...  - A C program that prints all possible different combinations of three digits.
+The success combination in business is: Do what you do better... and: do more of what you do...  - A C program that prints all possible different combinations of three digits
+
+Sofware is eating the World - A C program that prints all possible combinations of two two-digit numbers
