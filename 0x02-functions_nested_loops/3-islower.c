@@ -3,7 +3,7 @@
 /**
  * _islower - checks for lowercase character
  *
- * @c - Char to be checked
+ * @c: Char to be checked
  *
  * Return: Always 0 (Success)
  */
