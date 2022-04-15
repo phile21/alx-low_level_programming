@@ -8,12 +8,6 @@
  * Return: Always 0 (Successs)
  */
 
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	int a_z = 97;
