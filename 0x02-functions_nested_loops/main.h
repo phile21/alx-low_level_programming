@@ -1,8 +1,7 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
-#include <stdio.h>
 
-int main(void);
+int _putchar(char c);
 
 void print_alphabet(void);
 
