@@ -1,15 +1,9 @@
+#ifndef FILE_MAIN
+#define FILE_MAIN
 #include <stdio.h>
 
 int main(void);
 
-void print_alphabet(void)
-{
-	int a_z = 97;
+void print_alphabet(void);
 
-	while (a_z <= 122)
-	{
-		putchar(a_z);
-		a_z++;
-	}
-	putchar('\n');
-}
+#endif
