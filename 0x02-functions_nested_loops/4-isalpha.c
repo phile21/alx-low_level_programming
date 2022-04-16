@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpha(int c) - checks for alphabetic characters
+ * _isalpha - checks for alphabetic characters
  *
- * @c: parameter to check
+ * @c: parameter to check if it's alphabetic
  *
- * Return: Always 0 (Success)
+ * Return: 1 if it's alphabetic and 0 if not
  */
 
 int _isalpha(int c)
