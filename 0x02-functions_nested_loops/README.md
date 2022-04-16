@@ -5,3 +5,5 @@ I sometimes suffer from insomnia. And when I can't fall asleep, I play what I ca
 islower - A C program having a function that checks for lowercase character.
 
 isalpha - A C program having a function that checks for alphabetic character
+
+Sign - A C program having a function that prints the sign of a number
