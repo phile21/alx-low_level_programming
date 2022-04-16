@@ -5,14 +5,14 @@
  *
  * @n: parameter to check
  *
- * Return: 1
+ * Return: 1 or 0 or -1
  */
 
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar('+');
+		putchar('+');
 		return (1);
 	}
 	else if (n == 0)
