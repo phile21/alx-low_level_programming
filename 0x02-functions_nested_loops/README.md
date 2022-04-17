@@ -9,3 +9,5 @@ isalpha - A C program having a function that checks for alphabetic character
 Sign - A C program having a function that prints the sign of a number
 
 There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you - A C program having a function that computes the absolute value of an integer
+
+There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important -  A C program having a function that prints the last digit of a number
