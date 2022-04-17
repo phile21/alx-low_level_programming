@@ -11,13 +11,13 @@ void times_table(void)
 {
 	int number = 0;
 
-	int multiple = 0;
-
 	int result;
 
 	while (number <= 9)
 	{
-		_putchar(48);
+		int multiple = 0;
+
+		_putchar('0');
 
 		while (multiple <= 9)
 		{
@@ -31,8 +31,8 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar((result / 10) + 48);
-				_putchar((result % 10) + 48);
+				_putchar((result / 10) + '0');
+				_putchar((result % 10) + '0');
 			}
 			multiple++;
 		}
