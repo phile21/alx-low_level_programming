@@ -21,7 +21,7 @@ void times_table(void)
 		{
 			result = number * multiple;
 
-			if (result == 0)
+			if (multiple == 0)
 			{
 				_putchar(48 + result);
 			}
