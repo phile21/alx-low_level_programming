@@ -15,7 +15,7 @@ void times_table(void)
 
 	while (number <= 9)
 	{
-		int multiple = 0;
+		int multiple = 1;
 
 		_putchar('0');
 
