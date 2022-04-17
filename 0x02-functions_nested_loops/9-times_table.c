@@ -15,24 +15,31 @@ void times_table(void)
 
 	while (number <= 9)
 	{
-		int multiple = 1;
-
-		_putchar('0');
+		int multiple = 0;
 
 		while (multiple <= 9)
 		{
-			_putchar(',');
-			_putchar(' ');
 			result = number * multiple;
 
-			if (result <= 9)
+			if (result == 0)
+			{
+				_putchar(48 + result);
+			}
+			else if (result >= 10)
 			{
 				_putchar(' ');
+				_putchar((result / 10) + 48);
+				_putchar((result % 10) + 48);
 			}
 			else
 			{
-				_putchar((result / 10) + '0');
-				_putchar((result % 10) + '0');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(48 + result);
+			}
+			if (multiple != 9)
+			{
+				_putchar(',');
 			}
 			multiple++;
 		}
