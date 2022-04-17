@@ -11,9 +11,12 @@ void times_table(void)
 {
 	int number = 0;
 
+	int result;
+
 	while (number <= 9)
 	{
 		_putchar(48);
+
 		int multiple = 1;
 
 		while (multiple <= 9)
