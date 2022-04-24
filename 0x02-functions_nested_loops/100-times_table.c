@@ -12,37 +12,37 @@ void print_times_table(int n)
 
 	int result;
 
-	while (number <= n)
+	if (n <= 15 && n >= 0)
 	{
-		int multiple = 0;
-
-		while (multiple <= n)
+		while (number <= n)
 		{
-			result = number * multiple;
+			int multiple = 1;
 
-			if (multiple == 0)
-			{
-				_putchar(48 + result);
-			}
-			else if (result >= 10)
-			{
-				_putchar(' ');
-				_putchar((result / 10) + 48);
-				_putchar((result % 10) + 48);
-			}
-			else
-			{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(48 + result);
-			}
-			if (multiple != n)
+			_putchar(48);
+
+			while (multiple <= n)
 			{
 				_putchar(',');
+				_putchar(' ');
+				result = number * multiple;
+				if (result <= 99)
+				{
+					_putchar(' ');
+				}
+				if (result >= 100)
+				{
+					_putchar((result / 100) + 48);
+					_putchar((result / 10) % 10 + 48);
+				}
+				else if (result <= 99 && result >= 10)
+				{
+					_putchar((result / 10) + 48);
+				}
+				_putchar((result % 10) + 48);
+				multiple++;
 			}
-			multiple++;
+			_putchar('\n');
+			number++;
 		}
-		_putchar('\n');
-		number++;
 	}
 }
