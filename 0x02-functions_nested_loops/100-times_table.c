@@ -18,7 +18,7 @@ void print_times_table(int n)
 		{
 			int multiple = 1;
 
-			_putchar(48);
+			_putchar('0');
 
 			while (multiple <= n)
 			{
@@ -26,6 +26,10 @@ void print_times_table(int n)
 				_putchar(' ');
 				result = number * multiple;
 				if (result <= 99)
+				{
+					_putchar(' ');
+				}
+				if (result <= 9)
 				{
 					_putchar(' ');
 				}
