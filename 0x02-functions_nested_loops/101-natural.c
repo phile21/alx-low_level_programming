@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	print_sum_of_multiples();
+	multiples();
 	return (0);
 }
 
-void print_sum_of_multiples(void)
+void multiples(void)
 {
 	int sum = 0;
 
