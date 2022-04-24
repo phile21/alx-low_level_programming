@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -11,6 +11,7 @@
 int main(void)
 {
 	numbers();
+
 	return (0);
 }
 
