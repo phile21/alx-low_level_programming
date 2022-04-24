@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * print_sum_of_multiples - prints sum of multiples of numbers
+ * numbers - prints sum of multiples of numbers
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	multiples();
+	numbers();
 	return (0);
 }
 
-void multiples(void)
+void numbers(void)
 {
 	int sum = 0;
 
