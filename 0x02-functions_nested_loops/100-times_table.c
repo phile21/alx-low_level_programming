@@ -38,7 +38,7 @@ void print_times_table(int n)
 			}
 			if (multiple != n)
 			{
-				_putchar(',')
+				_putchar(',');
 			}
 			multiple++;
 		}
