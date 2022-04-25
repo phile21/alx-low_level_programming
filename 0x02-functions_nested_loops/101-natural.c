@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
- *
  * numbers - prints sum of multiples of numbers
+ *
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	numbers();
 
