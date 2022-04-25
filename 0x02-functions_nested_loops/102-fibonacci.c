@@ -26,7 +26,7 @@ void fibonacci_numbers(void)
 
 	int secnum = 1;
 	
-	int next num;
+	int nextnum;
 
 	while (i <= 50)
 	{
