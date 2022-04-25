@@ -3,15 +3,7 @@
 /**
  * numbers - prints sum of multiples of numbers
  *
- * main - Entry point
- *
  * Return: Always 0 (Success)
- */
-
-/**
- * main - Entry point
- *
- * Return: Always zero (success)
  */
 
 int main(void)
@@ -20,6 +12,10 @@ int main(void)
 
 	return (0);
 }
+
+/**
+ * main - Entry
+ */
 
 void numbers(void)
 {
