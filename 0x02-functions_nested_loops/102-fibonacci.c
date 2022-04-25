@@ -20,20 +20,18 @@ int main(void)
 
 void fibonacci_numbers(void)
 {
-	int i = 3;
+	int i, firstnum, secnum,nextnum;
 
-	int frstnum = 1;
-
-	int secnum = 1;
-	
-	int nextnum;
+	frstnum = 1;
+	i = 1;
+	secnum = 2;
 
 	while (i <= 50)
 	{
-		printf("%d, ", nextnum);
+		printf("%d, ", firstnum);
+		nextnum = frstnum + secnum;
 		frstnum = secnum;
 		secnum = nextnum;
-		nextnum = frstnum + secnum;
 		i++;
 	}
 	printf("\n");
