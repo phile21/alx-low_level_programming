@@ -23,16 +23,16 @@ void fibonacci_numbers(void)
 	int i, frstnum, secnum, nextnum;
 
 	frstnum = 1;
-	i = 1;
-	secnum = 2;
+	i = 2;
+	secnum = 1;
+	printf("%d%d, ", frstnum, secnum);
 
 	while (i < 50)
 	{
-		printf("%d, ", frstnum);
 		nextnum = frstnum + secnum;
+		printf(" %d, ", nextnum);
 		frstnum = secnum;
 		secnum = nextnum;
-		i++;
 	}
 	printf("\n");
 }
