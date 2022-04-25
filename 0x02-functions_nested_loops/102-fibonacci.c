@@ -33,6 +33,7 @@ void fibonacci_numbers(void)
 		printf(" %d, ", nextnum);
 		frstnum = secnum;
 		secnum = nextnum;
+		i++;
 	}
 	printf("\n");
 }
