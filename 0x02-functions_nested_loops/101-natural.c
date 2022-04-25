@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * numbers - prints sum of multiples of numbers
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -14,7 +14,7 @@ int main(void)
 }
 
 /**
- * main - Entry
+ * numbers - prints sum of multiples
  */
 
 void numbers(void)
