@@ -24,21 +24,21 @@ void fibonacci_numbers(void)
 
 	frstnum = 1;
 	i = 0;
-	secnum = 2;
+	secnum = 1;
 
 	while (i < 50)
 	{
-		if (i == 1)
+		if (i <= 1)
 		{
-			printf("%d", frstnum);
+			nextnum = i;
 		}
 		else
 		{
-			printf("%d, ", frstnum);
 			nextnum = frstnum + secnum;
 			frstnum = secnum;
 			secnum = nextnum;
 		}
+		printf("%d, ", nextnum);
 		i++;
 	}
 	printf("\n");
