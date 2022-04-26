@@ -31,7 +31,7 @@ void fibonacci_numbers(void)
 
 	while (i < 50)
 	{
-		printf("%d, ", nextnum);
+		printf("%ld, ", nextnum);
 		frstnum = secnum;
 		secnum = nextnum;
 		nextnum = frstnum + secnum;
