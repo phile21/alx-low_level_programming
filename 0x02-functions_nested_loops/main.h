@@ -32,4 +32,6 @@ void numbers(void);
 
 void fibonacci_numbers(void);
 
+void fibonacci_even(void);
+
 #endif
