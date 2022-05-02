@@ -24,7 +24,9 @@ void fizzbuzz(void);
 
 void print_triangle(int size);
 
+void large_prime(void);
 
+void print_number(int n);
 
 int _putchar(char c);
 
