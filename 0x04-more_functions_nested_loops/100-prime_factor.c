@@ -18,7 +18,9 @@ int main(void)
 
 void large_prime(void)
 {
-	int num = 612852475143, i = 2;
+	long int num = 612852475143;
+
+       	long int i = 2;
 	
 	while (i < num)
 	{
@@ -28,6 +30,6 @@ void large_prime(void)
 		}
 		i++;
 	}
-	printf("%d\n", i);
+	printf("%ld\n", i);
 }
 
