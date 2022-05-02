@@ -22,17 +22,17 @@ void fizzbuzz(void)
 
 	while (num <= 100)
 	{
-		if (num % 3 == 0)
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
-			printf("%s ", "Fizz");
+			printf("%s ", "FizzBuzz");
 		}
 		else if (num % 5 == 0)
 		{
 			printf("%s ", "Buzz");
 		}
-		else if ((num % 3 == 0) && (num % 5 == 0))
+		else if (num % 3 == 0)
 		{
-			printf("%s ", "FizzBuzz");
+			printf("%s ", "Fizz");
 		}
 		else
 		{
