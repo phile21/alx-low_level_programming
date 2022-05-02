@@ -12,8 +12,7 @@
 
 int mul(int a, int b)
 {
-	int mul_result = a * b;
-	
-	_putchar(mul_result);
-	_putchar('\n');
+	int mul_resul = a * b;
+
+	return (mult_reul);
 }
