@@ -18,9 +18,12 @@ int main(void)
 
 void print_98_fibonacci(void)
 {
-	int num1, num2, i = 1, n = 98;
+	int num1, num2, i, n;
 
 	int next_num;
+
+	i = 1;
+	n = 98;
 
 	while (i <= n)
 	{
