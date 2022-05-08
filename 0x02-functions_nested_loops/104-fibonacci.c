@@ -24,7 +24,7 @@ void print_98_fibonacci(void)
 	printf("%d, ", num2);
 	count = 2;
 	num = 98;
-	while (count < num)
+	while (count <= num)
 	{
 		num3 = num1 + num2;
 		count++;
@@ -32,4 +32,5 @@ void print_98_fibonacci(void)
 		num1 = num2;
 		num2 = num3;
 	}
+	printf("%d\n");
 }
