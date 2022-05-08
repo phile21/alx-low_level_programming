@@ -18,27 +18,18 @@ int main(void)
 
 void print_98_fibonacci(void)
 {
-	int num1, num2, i, n;
+	int num1 = 1, num2 = 2, num3, num, count = 0;
 
-	int next_num;
-
-	i = 1;
-	n = 98;
-
-	while (i <= n)
+	printf("%d, ", num1);
+	printf("%d, ", num2);
+	count = 2;
+	num = 98;
+	while (count < num)
 	{
-		if (i == 98)
-		{
-			printf("%d, ", num2);
-		}
-		else
-		{
-			printf("%d, ", num2);
-			next_num = num1 + num2;
-			num1 = num2;
-			num2 = next_num;
-		}
-		i++;
+		num3 = num1 + num2;
+		count++;
+		printf("%d, ", num3);
+		num1 = num2;
+		num2 = num3;
 	}
-	printf("\n");
 }
