@@ -32,5 +32,5 @@ void print_98_fibonacci(void)
 		num1 = num2;
 		num2 = num3;
 	}
-	printf("%d\n");
+	putchar('\n');
 }
