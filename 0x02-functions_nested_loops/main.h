@@ -34,4 +34,7 @@ void fibonacci_numbers(void);
 
 void fibonacci_even(void);
 
+void print_98_fibonacci(void);
+
+
 #endif
